@@ -49,6 +49,11 @@ let madeMenu = ` *👋 Hello ${pushname}*
  ${menu.download}
 ╰───────────●●►
 ╭──────────●●►
+ 👾 *𝐀𝐢 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.ai}
+╰───────────●●►
+╭──────────●●►
  🔧 *𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮*
   ───────
  ${menu.main}
@@ -89,7 +94,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/13/83ac01c405f9d78df8dacb96400ac5c2.jpeg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/20/dc6aa11ac0a0299a52269ed5b2046f8b.jpeg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
