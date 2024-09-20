@@ -90,7 +90,7 @@ _*🧚‍♀️Enjoy your time with us!😊*_
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/dbvfMrN/IMG-20240913-WA0043.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://imgtr.ee/images/2024/09/20/9321bfeda1f23bd49d5b08498dc4e322.jpeg` }, caption: up })
 
 }
 })
