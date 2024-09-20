@@ -15,7 +15,7 @@ let dec = `*👋 Hello ${pushname}*
 
 *📍REPO LINK ❤️‍🔥👇*
 
-🧚‍♀️◦https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main
+🧚‍♀️◦ https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main
 
 *📍PLEASE SUBSCRIBE MY YOUTUBE CHANNEL ❤️‍🔥👇*
 
@@ -28,7 +28,7 @@ let dec = `*👋 Hello ${pushname}*
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 
 `
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/my0RZww/IMG-20240913-WA0047.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://imgtr.ee/images/2024/09/20/bf70c90026dda623f02754df874a3171.jpeg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
