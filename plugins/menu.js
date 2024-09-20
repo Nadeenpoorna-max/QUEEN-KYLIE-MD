@@ -24,6 +24,7 @@ group: '',
 owner: '',
 convert: '',
 search: '',
+ai: '',
 fun: '',
 voice: '',
 other: ''
