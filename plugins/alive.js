@@ -30,7 +30,7 @@ let des = `*👋 Hello ${pushname}*
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tCkmbMx/IMG-20240913-WA0041.jpg`},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/20/e65a4e6ebda2962b07636da2b016f5ec.jpeg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
