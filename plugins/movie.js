@@ -1,1 +1,61 @@
-const _0x3ab057=_0x3a1b;(function(_0x1a1bf9,_0x52e3f1){const _0xc8ce17=_0x3a1b,_0x459d0a=_0x1a1bf9();while(!![]){try{const _0x41933f=-parseInt(_0xc8ce17(0x1b6))/0x1*(-parseInt(_0xc8ce17(0x1b8))/0x2)+-parseInt(_0xc8ce17(0x1dc))/0x3*(-parseInt(_0xc8ce17(0x1b4))/0x4)+-parseInt(_0xc8ce17(0x1d7))/0x5*(parseInt(_0xc8ce17(0x1c0))/0x6)+parseInt(_0xc8ce17(0x1bb))/0x7*(-parseInt(_0xc8ce17(0x1da))/0x8)+parseInt(_0xc8ce17(0x1c2))/0x9*(-parseInt(_0xc8ce17(0x1ce))/0xa)+-parseInt(_0xc8ce17(0x1d5))/0xb+-parseInt(_0xc8ce17(0x1ca))/0xc*(-parseInt(_0xc8ce17(0x1bf))/0xd);if(_0x41933f===_0x52e3f1)break;else _0x459d0a['push'](_0x459d0a['shift']());}catch(_0x31155e){_0x459d0a['push'](_0x459d0a['shift']());}}}(_0x44a0,0xbe2cd));const axios=require(_0x3ab057(0x1d6)),{cmd}=require(_0x3ab057(0x1ba)),config=require(_0x3ab057(0x1b9));function _0x3a1b(_0x3a4735,_0x481a75){const _0x44a0fa=_0x44a0();return _0x3a1b=function(_0x3a1bb1,_0x3f1b9d){_0x3a1bb1=_0x3a1bb1-0x1b4;let _0x4540b2=_0x44a0fa[_0x3a1bb1];return _0x4540b2;},_0x3a1b(_0x3a4735,_0x481a75);}function _0x44a0(){const _0x3dc2ab=['539185DMLMBJ','ALIVE_IMG','Genre','47672KMjcXQ','movie','4421247iDNQAa','message','\x0a\x0a🌪️\x20*Director:*\x20\x20=\x20\x20','4xFJhfr','get','34712iiJQul','\x0a\x0a🌪️\x20*Released:*\x20\x20=\x20\x20','22QaSYxe','../config','../command','1099wGCeFm','📽️\x20Please\x20provide\x20the\x20name\x20of\x20the\x20movie.','log','Director','650dvZioG','54VnXPTt','imdbVotes','11889bdslAz','Response','Released','\x0a\x0a🌪️\x20*IMDB\x20Votes:*\x20\x20=\x20\x20','False','\x0a>\x20ᴩᴏᴡᴇʀᴅ\x20ʙʏ\x20ᴄʏʙᴇʀ-ᴍᴅ','Fetch\x20detailed\x20information\x20about\x20a\x20movie.','data','635124rolhbm','N/A','join','\x0a\x0a🌪️\x20*Country:*\x20\x20=\x20\x20','7660oLxnXc','\x0a\x0a🌪️\x20*Genre:*\x20\x20=\x20\x20','http://www.omdbapi.com/?t=','Language','🚫\x20Movie\x20not\x20found.','Poster','Country','8854912TTWYov','axios'];_0x44a0=function(){return _0x3dc2ab;};return _0x44a0();}cmd({'pattern':_0x3ab057(0x1db),'desc':_0x3ab057(0x1c8),'category':'other','react':'🎬','filename':__filename},async(_0x4919e7,_0x4bfd96,_0xe392c5,{from:_0x4c4107,quoted:_0x236ec9,body:_0x12e220,isCmd:_0x572d0b,command:_0xccc86f,args:_0x49f9cb,q:_0x41912a,isGroup:_0x2c3bf4,sender:_0x4f3f4e,senderNumber:_0x5d0c91,botNumber2:_0x4b2fce,botNumber:_0x171a93,pushname:_0x4807af,isMe:_0x10d389,isOwner:_0x2ff2c2,groupMetadata:_0x1d57cb,groupName:_0x2d6a56,participants:_0x979b79,groupAdmins:_0x532350,isBotAdmins:_0x58a029,isAdmins:_0x5406c2,reply:_0x3ac18a})=>{const _0xbc9a59=_0x3ab057;try{const _0x178848=_0x49f9cb[_0xbc9a59(0x1cc)]('\x20');if(!_0x178848)return _0x3ac18a(_0xbc9a59(0x1bc));const _0x4c5546=_0xbc9a59(0x1d0)+encodeURIComponent(_0x178848)+'&apikey='+config['OMDB_API_KEY'],_0x3ac7d7=await axios[_0xbc9a59(0x1b5)](_0x4c5546),_0x1f81bd=_0x3ac7d7[_0xbc9a59(0x1c9)];if(_0x1f81bd[_0xbc9a59(0x1c3)]===_0xbc9a59(0x1c6))return _0x3ac18a(_0xbc9a59(0x1d2));const _0x5269f9='\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a\x20*⟡━⟪🎬𝐌𝐕\x20𝐈𝐍𝐅𝐎🎬⟫━⟡*\x0a\x0a\x20\x20\x20\x20\x20\x0a\x0a🧩\x20*Title:*\x20'+_0x1f81bd['Title']+_0xbc9a59(0x1b7)+_0x1f81bd[_0xbc9a59(0x1c4)]+_0xbc9a59(0x1cf)+_0x1f81bd[_0xbc9a59(0x1d9)]+_0xbc9a59(0x1de)+_0x1f81bd[_0xbc9a59(0x1be)]+'\x0a\x0a🌪️\x20*Language:*\x20\x20=\x20\x20'+_0x1f81bd[_0xbc9a59(0x1d1)]+_0xbc9a59(0x1cd)+_0x1f81bd[_0xbc9a59(0x1d4)]+_0xbc9a59(0x1c5)+_0x1f81bd[_0xbc9a59(0x1c1)]+'\x0a\x0a',_0x12a9ae=_0x1f81bd[_0xbc9a59(0x1d3)]&&_0x1f81bd[_0xbc9a59(0x1d3)]!==_0xbc9a59(0x1cb)?_0x1f81bd[_0xbc9a59(0x1d3)]:config[_0xbc9a59(0x1d8)];await _0x4919e7['sendMessage'](_0x4c4107,{'image':{'url':_0x12a9ae},'caption':_0x5269f9+_0xbc9a59(0x1c7)},{'quoted':_0x4bfd96});}catch(_0x243e93){console[_0xbc9a59(0x1bd)](_0x243e93),_0x3ac18a('❌\x20Error:\x20'+_0x243e93[_0xbc9a59(0x1dd)]);}});
+const axios = require('axios');
+const { cmd } = require('../command');
+const config = require('../config'); // Ensure your API key is in config
+
+cmd({
+    pattern: "movie",
+    desc: "Fetch detailed information about a movie.",
+    category: "other",
+    react: "🎬",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const movieName = args.join(' ');
+        if (!movieName) {
+            return reply("📽️ ρℓєαѕє ρяσνι∂є тнє ηαмє σƒ тнє мσνιє.");
+        }
+
+        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${config.OMDB_API_KEY}`;
+        const response = await axios.get(apiUrl);
+
+        const data = response.data;
+        if (data.Response === "False") {
+            return reply("🚫 Movie not found.");
+        }
+
+        const movieInfo = `
+🎬 *Movie Information* 🎬
+
+🎥 *Title:* ${data.Title}
+📅 *Year:* ${data.Year}
+🌟 *Rated:* ${data.Rated}
+📆 *Released:* ${data.Released}
+⏳ *Runtime:* ${data.Runtime}
+🎭 *Genre:* ${data.Genre}
+🎬 *Director:* ${data.Director}
+✍️ *Writer:* ${data.Writer}
+🎭 *Actors:* ${data.Actors}
+📝 *Plot:* ${data.Plot}
+🌍 *Language:* ${data.Language}
+🇺🇸 *Country:* ${data.Country}
+🏆 *Awards:* ${data.Awards}
+⭐ *IMDB Rating:* ${data.imdbRating}
+🗳️ *IMDB Votes:* ${data.imdbVotes}
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+`;
+
+        // Define the image URL
+        const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
+
+        // Send the movie information along with the poster image
+        await conn.sendMessage(from, {
+            image: { url: imageUrl },
+            caption: `${movieInfo}\n> *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+        }, { quoted: mek });
+    } catch (e) {
+        console.log(e);
+        reply(`❌ єяяσя: ${e.message}`);
+    }
+});
