@@ -1,12 +1,12 @@
 {
-  "name": "CYBER-MD",
+  "name": "QUEEN-KYLIE-MD",
   "version": "1.0.0",
-  "description": "CYBER-MD ᴩᴏᴡᴇʀᴅ  ʙʏ  ᴩʀᴏɢʀᴀᴍᴍᴇʀ  ᴀʏᴇꜱʜ☘✅",
+  "description": "©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name cyber-md",
-    "stop": "pm2 stop cyber-md",
-    "restart": "pm2 restart cyber-md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-KYLIE-MD",
+    "stop": "pm2 stop QUEEN-KYLIE-MD",
+    "restart": "pm2 restart QUEEN-KYLIE-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
