@@ -22,9 +22,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         let desc = `*QUEEN-KYLIE-MD SONG/VIDEO DOWNLOADER . .⚙️*
 
 *⚙️ TITLE:* ${data.title}
+
 *⚙️ DESCRIPTION:* ${data.description}
+
 *⚙️ TIME:* ${data.timestamp}
+
 *⚙️ AGO:* ${data.ago}
+
 *⚙️ VIEWS:* ${data.views}
 
 Reply This Message With Option
