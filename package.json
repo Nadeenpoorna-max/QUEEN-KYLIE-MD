@@ -1,12 +1,12 @@
 {
-  "name": "QUEEN-KYLIE-MD",
-  "version": "1.5.0",
-  "description": "A WhatsApp Bot Created By Sahas Tech",
+  "name": "CYBER-MD",
+  "version": "1.0.0",
+  "description": "CYBER-MD ᴩᴏᴡᴇʀᴅ  ʙʏ  ᴩʀᴏɢʀᴀᴍᴍᴇʀ  ᴀʏᴇꜱʜ☘✅",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-KYLIE-MD",
-    "stop": "pm2 stop QUEEN-KYLIE-MD",
-    "restart": "pm2 restart QUEEN-KYLIE-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name cyber-md",
+    "stop": "pm2 stop cyber-md",
+    "restart": "pm2 restart cyber-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
@@ -24,6 +24,11 @@
     "vm": "^0.1.0",
     "qrcode-terminal": "^0.12.0",
     "yt-search":"2.11.1",
+    "wa-sticker-formatter": "^4.3.2",
     "api-dylux":"1.8.5"
+    
+    
+    
+    
   }
 }
