@@ -171,8 +171,8 @@ if(senderNumber.includes("94775341543")){
 if(isReact) return
 m.react("🤍")
 }
-//=====AutoReadCmd-By-Manul Ofc==========
-if (isCmd && config.MANU_OFC_READ_CMD === "true") {
+//=====Auto-Read-Cmd==========
+if (isCmd && config.AUTO_READ_CMD === "true") {
               await conn.readMessages([mek.key])  // Mark command as read
 }
 //Auto-StatusDL==============        
