@@ -2,7 +2,7 @@ const {cmd , commands} = require('../command')
 const yts = require('yt-search');
 const fg = require('api-dylux');
 
-// -------- Song Download --------
+// -------- Song/Video Download --------
 cmd({
     pattern: 'play',
     desc: 'Download Song / Video',
@@ -31,12 +31,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 *⚙️ VIEWS:* ${data.views}
 
-Reply This Message With Option
+*Reply This Message With Option 👇*
 
-1.1 Audio With Normal Format
-1.2 Audio With MP3 Format
-2.1 Video With Normal Format
-2.2 Video With MP4 Format
+*1.1 Audio With Normal Format*
+*1.2 Audio With MP3 Format*
+*2.1 Video With Normal Format*
+*2.2 Video With MP4 Format*
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
 
