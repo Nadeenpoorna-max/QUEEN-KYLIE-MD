@@ -172,7 +172,7 @@ if(isReact) return
 m.react("🤍")
 }
 //=====AutoReadCmd-By-Manul Ofc==========
-if (isCmd && config.M_OFC_READ_CMD === "true") {
+if (isCmd && config.MANU_OFC_READ_CMD === "true") {
               await conn.readMessages([mek.key])  // Mark command as read
 }
 //Auto-StatusDL==============        
