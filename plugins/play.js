@@ -20,23 +20,23 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const url = data.url;
 
         let desc = `*QUEEN-KYLIE-MD SONG/VIDEO DOWNLOADER . .⚙️*
+        
+⚙️ TITLE - ${data.title}
 
-*⚙️ TITLE:* ${data.title}
+⚙️ VIEWS - ${data.views}
 
-*⚙️ DESCRIPTION:* ${data.description}
+⚙️ DESCRIPTION - ${data.description}
 
-*⚙️ TIME:* ${data.timestamp}
+⚙️ TIME - ${data.timestamp}
 
-*⚙️ AGO:* ${data.ago}
-
-*⚙️ VIEWS:* ${data.views}
+⚙️ AGO - ${data.ago}
 
 *Reply This Message With Option 👇*
 
 *1.1 Audio With Normal Format*
-*1.2 Audio With MP3 Format*
+*1.2 Audio With Document Format*
 *2.1 Video With Normal Format*
-*2.2 Video With MP4 Format*
+*2.2 Video With Document Format*
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
 
