@@ -133,31 +133,6 @@ reply('Error!!')
 
 
 cmd({
-    pattern: "kick",
-    desc: "Remove a member from the group.",
-    category: "group",
-    react: "🚫",
-    filename: __filename
-},
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!isGroup) return reply('This command can only be used in a group.')
-        if (!isBotAdmins) return reply('Bot must be an admin to use this command.')
-        if (!isAdmins) return reply('You must be an admin to use this command.')
-
-        const user = m.mentioned[0] || m.quoted?.sender
-        if (!user) return reply('Please tag or reply to a user to remove.')
-
-        await conn.groupParticipantsUpdate(from, [user], 'remove')
-        await reply(`@${user.split('@')[0]} has been removed from the group.`, { mentions: [user] })
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
-    }
-})
-
-
-cmd({
     pattern: "add",
     desc: "Add a member to the group.",
     category: "group",
@@ -232,21 +207,3 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 })
 
 
-cmd({
-    pattern: "getpic",
-    desc: "Get the group profile picture.",
-    category: "group",
-    react: "🖼️",
-    filename: __filename
-},
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!isGroup) return reply('This command can only be used in a group.')
-
-        const groupPic = await conn.getProfilePicture(from)
-        await conn.sendMessage(from, { image: { url: groupPic }, caption: 'Group Profile Picture' })
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
-    }
-})
