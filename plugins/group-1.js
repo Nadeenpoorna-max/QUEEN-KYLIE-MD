@@ -467,7 +467,7 @@ cmd({
 //Automaticaly Add Specific Country Members
 
 cmd({
-    pattern: ".approve",
+    pattern: "approve",
     desc: "Automatically approve Specific Country users in the waiting list",
     react: "✅",
     category: "group",
