@@ -32,7 +32,7 @@
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/94765527900"><img src="https://img.shields.io/badge/Contact Udavin-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/94765527900"><img src="https://img.shields.io/badge/Contact Sahas Tech-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/Jx2dvOAzNaO3vm5bwVglyC"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://www.youtube.com/@uwtechshow"><img src="https://img.shields.io/badge/Subscribe UW TECH SHOW-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@DGXeon" /><br>
 </p>
