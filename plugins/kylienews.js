@@ -67,7 +67,7 @@ async function checkAndPostNews(conn, groupId) {
 cmd({
     pattern: "kylienews",
     desc: "Enable Sri Lankan news updates in this group",
-    category: group,
+    category: "group",
     isGroup: true,
     react: "📰",
     filename: __filename
