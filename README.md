@@ -29,6 +29,16 @@
 5) 𝙿𝚄𝚃 𝙳𝚈𝙽𝙾 𝚃𝙾 𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙸𝙾𝙽𝙰𝙻 𝙰𝙽𝙳 𝙿𝚄𝚃 𝙸𝚃 2𝚇.
 6) 𝙽𝙾𝚆 𝙴𝙽𝙹𝙾𝚈 𝚃𝙷𝙴 𝚀𝚄𝙴𝙴𝙽 𝙺𝚈𝙻𝙸𝙴 𝙼𝙳 𝙱𝙾𝚃.
 \\-------------------------------------------//
+
+<hr>
+<b><summary>𝗦𝗢𝗖𝗜𝗔𝗟 𝗧𝗬𝗣𝗘𝗦</summary><br>
+
+## CONTACT OWNER
+
+[![vajira](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://wa.me/94718913389)
+<hr>
+</details>
+
 ## THANKS TO 💗⚡
 
 • SHADOW - MD 📍💯
