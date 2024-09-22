@@ -12,8 +12,6 @@ SUDO_NB: process.env.SUDO_NB || "94718913389",
 AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
-AUTO_VOICE:"true",
-AUTO_STICKER:"true",
-AUTO_REPLY:"true"
+AUTO_VOICE:"true"
 };
 
